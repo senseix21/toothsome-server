@@ -5,6 +5,7 @@ const stripe = require("stripe")('sk_test_51Mt2qzDy7i8zUt3dPcj0MC0ZBolHDNhtvv2Lj
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
 
+
 const port = process.env.PORT || 5000;
 const app = express();
 
